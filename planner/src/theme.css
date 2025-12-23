@@ -1,0 +1,22 @@
+h1 {
+  color: blue;
+}
+
+body, html {
+  background-color: : #ccc;
+}
+
+.portfolio-tab {
+  padding: 20px;
+  display: block;
+}
+
+.selected-tab {
+  font-weight: bold;
+  background-color: #ccc
+}
+
+.portfolio-tab:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
