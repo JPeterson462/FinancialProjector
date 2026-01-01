@@ -28,3 +28,7 @@ body, html {
 .tab-hidden {
   display: none !important;
 }
+
+.padded-rows tr, .padded-rows th, .padded-rows td {
+  padding: 6px;
+}

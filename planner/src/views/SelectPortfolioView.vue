@@ -17,7 +17,7 @@ export default {
         const file = selectedFiles[0];
         const reader = new FileReader();
         reader.onload = (e) => {
-          console.log(e.target.result);
+          //console.log(e.target.result);
           router.push({
             name: 'PortfolioOverview',
             state: { portfolioJson: e.target.result }
