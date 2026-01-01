@@ -20,3 +20,11 @@ body, html {
   text-decoration: underline;
   cursor: pointer;
 }
+
+.tab-content {
+  display: block;
+}
+
+.tab-hidden {
+  display: none !important;
+}
